@@ -1,0 +1,2 @@
+# Szoftverleltar
+Szoftverleltár Bt.
