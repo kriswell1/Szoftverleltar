@@ -1,3 +1,5 @@
+
+
 function gepek() {
     $.post(
         "ajax_model.php",
