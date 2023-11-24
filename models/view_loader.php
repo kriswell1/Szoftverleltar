@@ -19,7 +19,12 @@ class View_Loader
         if (file_exists($file))
         {
             $this->style = SITE_ROOT . 'css/' . strtolower($viewName) . '.css';
-        }        
+        }  
+	$file = SERVER_ROOT . 'js/' . strtolower($viewName) . '.js';
+        if (file_exists($file))
+        {
+            $this->style = SITE_ROOT . 'js/' . strtolower($viewName) . '.js';
+        }  
     }
 
     public function assign($variable , $value)
